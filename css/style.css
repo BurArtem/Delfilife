@@ -969,7 +969,7 @@ body {
 @media screen and (max-width: 767px) {
   .footer__address {
     margin-left: 15px;
-    text-align: left;
+    text-align: center;
   }
 }
 .footer__logo {
