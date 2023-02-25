@@ -498,6 +498,11 @@ body {
     font-size: 36px;
   }
 }
+@media screen and (max-width: 424px) {
+  .section-title h1 {
+    font-size: 34px;
+  }
+}
 
 .second-section {
   padding-top: 30px;
@@ -888,6 +893,9 @@ body {
   font-size: 20px;
   color: #000000;
   margin-left: 24px;
+}
+.sixth-section__service-text p {
+  line-height: auto;
 }
 @media screen and (max-width: 1024px) {
   .sixth-section__service-text {
