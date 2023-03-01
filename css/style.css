@@ -870,9 +870,32 @@ body {
 .sixth-section__content {
   margin-top: 30px;
 }
+@media screen and (max-width: 767px) {
+  .sixth-section__content {
+    margin-top: 20px;
+  }
+}
 .sixth-section__service {
   display: flex;
+}
+.sixth-section__title-2 {
   margin-top: 40px;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  color: #000000;
+}
+@media screen and (max-width: 767px) {
+  .sixth-section__title-2 {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .sixth-section__title-2 {
+    font-size: 20px;
+  }
 }
 .sixth-section__service-number {
   font-family: "Source Sans Pro";
@@ -892,6 +915,7 @@ body {
   font-weight: 600;
   font-size: 20px;
   color: #000000;
+  margin: 5px 0px;
   margin-left: 24px;
 }
 .sixth-section__service-text p {
@@ -905,6 +929,11 @@ body {
 @media screen and (max-width: 767px) {
   .sixth-section__service-text {
     font-size: 16px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .sixth-section__service-text {
+    margin-left: 15px;
   }
 }
 
